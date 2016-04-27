@@ -4,23 +4,17 @@ sonatypeProfileName := "se.digiplant"
 // To sync with Maven central, you need to supply the following information:
 pomExtra in Global := {
   <url>https://github.com/digiPlant/play-imagemagick</url>
-  
-  <!-- License of your choice -->
   <licenses>
     <license>
       <name>MIT</name>
       <url>https://en.wikipedia.org/wiki/MIT_License</url>
     </license>
   </licenses>
-  
-  <!-- SCM information. Modify the following URLs -->
   <scm>
     <connection>scm:git://github.com/digiPlant/play-imagemagick.git</connection>
     <developerConnection>scm:git:git@github.com:digiPlant/play-imagemagick</developerConnection>
     <url>github.com/digiPlant/play-imagemagick</url>
   </scm>
-
-  <!-- Developer contact information -->
   <developers>
     <developer>
       <id>stefanjurmu</id>
