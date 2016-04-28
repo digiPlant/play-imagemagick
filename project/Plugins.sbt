@@ -5,6 +5,6 @@ resolvers ++= Seq(
 
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.3.4")
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-pgp" % "0.8.3")
+addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "1.1")
 
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "0.2.1")
+addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.0.0") // fot sbt-0.13.5 or higher
