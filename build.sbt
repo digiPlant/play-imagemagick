@@ -10,7 +10,7 @@ version := "0.1.0"
 
 scalaVersion := "2.11.1"
 
-javacOptions ++= Seq("-source", "1.7")
+javacOptions ++= Seq("-source", "1.8")
 
 crossScalaVersions := Seq("2.10.4", "2.11.1")
 
